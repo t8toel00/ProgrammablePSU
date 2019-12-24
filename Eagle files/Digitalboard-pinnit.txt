@@ -1,0 +1,31 @@
+A0 = analogread U
+A1 = analogread I
+
+A2 = lämpötilasensori jäähdytyslevylle NTC
+A3 = input power voltage analogread
+
+A4 = I2C LCD SDA
+A5 = I2C LCD SCL
+
+A6 = General IO / merkki LED valmius (LED, analogread)
+A7 = General IO / merkki LED valmius (Takometri jähhdytyspuhaltimelta interrupteilla)
+
+D0 = USB Serial RX
+D1 = USB Serial TX
+
+D2 = Shift register DATA pin
+D3 = Shift register update pulse
+D4 = Shift register CLK
+
+D5 = General IO / merkki LED valmius (PWM jähhdytyspuhaltimelle)
+
+D6 = UART TX/RX valmius
+D7 = UART TX/RX valmius
+
+D8 = rotary encoder switch pin
+D9 = rotary encoder D
+D10 = rotary encoder clk
+
+D11 = rotary encoder switch pin
+D12 = rotary encoder D
+D13 = rotary encoder clk
